@@ -6,8 +6,8 @@
 
 ## Run program
 
-   poetry run python run.py -f clicks
+    poetry run python run.py -f clicks
 
 ## Run tests
 
-   poetry run pytest
+    poetry run pytest
