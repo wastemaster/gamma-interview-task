@@ -24,8 +24,6 @@ target_fields = [item.strip() for item in args.fields.split(',')]
 
 for item in target_fields:
     if item not in AVAILABLE_FIELDS:
-        print(AVAILABLE_FIELDS)
-        print(item)
         exit(f"Provided field name {item} "
              f"is not among the available "
              f"field names {available_fields_printable}")
